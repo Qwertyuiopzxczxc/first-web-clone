@@ -52,7 +52,7 @@ function addTask(){
     renderTasks();
     //обновляем счетчики задач
     updateCounters();
-}
+} 
 
 // Функция для выполнения задач
 function toggleTaskCompletion(taskId){
