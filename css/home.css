@@ -1,0 +1,226 @@
+.sec1{
+    background-image: url("../images/iii.jpg");
+    width: 100%;
+    height: 95vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-content: center;
+    text-align: center;
+}
+h1{
+    margin: 0;
+    font-size: 50px;
+    font-weight: 200;
+    color: white;
+    letter-spacing: 3px;
+}
+.span1{
+    color: indianred;
+}
+.span2{
+    color: rgb(156, 76, 0);
+}
+.sec1 > p{
+    color: rgb(204, 204, 204);
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+}
+.sec1 > a > button{
+    background-color: green;
+    color: white;
+    padding: 10px 40px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 200;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.sec1 > a > button:hover{
+    background-color: transparent;
+    border: 2px solid green;
+}
+.sec2{
+    width: 100%;
+    height: 100vh;
+    background-color: #211817;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+.right-cont{
+    width: 25%;
+}
+.left-img{
+    width: 35%;
+}
+.right-cont > h2{
+    font-size: 62px;
+    color: rgb(82, 82, 255);
+    font-weight: 200;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.right-cont > p{
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+    line-height: 28px;
+    margin-bottom: 40px;
+}
+.but-read{
+    background-color: red;
+    color: white;
+    padding: 10px 40px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 200;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.but-read:hover{
+    background-color: transparent;
+    border: 2px solid red;
+}
+.sec3 > h2{
+    font-size: 50px;
+    font-weight: 200;
+    color: white;
+    letter-spacing: 3px;
+    display: block;
+}
+.sec3{
+    width: 100%;
+    height: 65vh;
+    background-color: rgb(54, 54, 54);
+    align-content: center;
+    padding: 0 0 100px 0
+}
+.left-avatar{
+    display: flex;
+    width: 30%;
+    align-items: center;
+    color: white;
+    gap: 10%;
+}
+.left{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 200px;
+
+}
+.middle-avatar{
+    display: flex;
+    width: 30%;
+    align-items: center;
+    color: white;
+    gap: 10%;
+}
+.middle{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 200px;
+
+}
+.right-avatar{
+    display: flex;
+    width: 30%;
+    align-items: center;
+    color: white;
+    gap: 10%;
+}
+.right{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 200px;
+
+}
+.all1{
+
+    width: 30%;
+}
+.all2{
+
+    border-radius: 20px;
+    width: 30%;
+}
+.all3{
+
+    border-radius: 20px;
+    width: 30%;
+}
+.star{
+    color: yellow;
+}
+.text{
+    color: white;
+}
+.name{
+    color: cornflowerblue;
+}
+.otziv-cont{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.otziv{
+    font-size: 45px;
+    font-weight: 100;
+    text-align: center;
+    color: white;
+    align-items: center;
+}
+.test{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    padding: 10px 40px;
+    border: 2px solid rgb(34, 34, 34);
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 200;
+    transition: all 0.3s ease;
+}
+.test:hover{
+    background-color: rgb(56, 56, 56);
+    border: 2px solid rgb(56, 56, 56);
+}
+.test2{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    padding: 10px 40px;
+    border: 2px solid rgb(34, 34, 34);
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 200;
+    transition: all 0.3s ease;
+}
+.test2:hover{
+    background-color: rgb(56, 56, 56);
+    border: 2px solid rgb(56, 56, 56);
+}
+.test3{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    padding: 10px 40px;
+    border: 2px solid rgb(34, 34, 34);
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 200;
+    transition: all 0.3s ease;
+}
+.test3:hover{
+    background-color: rgb(56, 56, 56);
+    border: 2px solid rgb(56, 56, 56);
+}

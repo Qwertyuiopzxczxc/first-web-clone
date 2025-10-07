@@ -1,0 +1,102 @@
+body{
+    width: 100%;
+    margin: 0;
+}
+
+a, p, h1, h2, h3, button{
+    font-family: "Dela Gothic One", sans-serif;
+    text-decoration: none;
+    font-weight: 200;
+}
+
+
+header{
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    align-content: center;
+}
+
+.logo{
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 30px;
+}
+
+header > div > nav > a{
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: all 0.3s ease;
+}
+header > div > nav > a:hover{
+    color: gray;
+}
+
+
+.header-cont{
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer{
+    background-color: black;
+    border-top: 2px solid black;
+    padding: 50px 0;
+    width: 100%s;
+}
+.footer-cont{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-cont > nav{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.footer-desc{
+    width: 20%;
+}
+.footer-desc > p{
+    color: gray;
+    font-size: 10px;
+}
+.footer-cont > nav > a{
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: all 0.3s ease;
+}
+.footer-cont > nav > a:hover{
+    color: gray;
+}
+.tg, .insta, .vk{
+    color: white;
+    font-size: 30px;
+    margin-right: 15px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    
+}
+.tg:hover{
+    color: rgb(54, 255, 235);
+}
+.insta:hover{
+    color: palevioletred;
+}
+.vk:hover{
+    color: rgb(72, 72, 255);
+}

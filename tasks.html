@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задачи</title>
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header-cont">
+    <header>
+        <a href="">Tasks</a>
+        <button id="themeToggle">🌙 Темная тема</button>
+    </header>
+    </div>
+    <main>
+        <!--Форма добавления задач-->
+        <div class="add-task">
+            <input type="text" id="taskInput" placeholder="Введите новую задачу...">
+            <button id="addTaskBtn">Добавить</button>
+        </div>
+        <!--Контйенер для списка задач-->
+        <ul id="taskList"></ul>
+
+        <!--Счетчик задач-->
+        <div class="task-counter">
+            Всего задач: <span id="totalTasks">0</span>
+            Выполнено: <span id="completedTasks">0</span>
+        </div>
+    </main>
+    <script src="js/tasks.js"></script>
+</body>
+</html>

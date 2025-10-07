@@ -1,0 +1,76 @@
+
+body{
+    background-color: white;
+    color: black;
+    font-family: "Dela Gothic One", sans-serif;
+    margin: 0;
+    text-align: center;
+    padding: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/*Темная тема*/
+body.dark-theme{
+    background-color: black;
+    color: white;
+}
+a{
+    color: red;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px;
+    letter-spacing: 2px;
+    transition: color 0.3s;
+    font-size: 45px;
+    align-content: center;
+}
+a.darktheme{
+    color: blue;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+}
+button{
+        font-family: "Dela Gothic One", sans-serif;
+        border-radius: 5px;
+        background-color: rgb(255, 39, 39);
+        font-weight: 200;
+        font-size: 23px;
+        border: none;
+        color: white;
+        cursor: pointer;
+        transition: all 0.3 ease;
+}
+button:hover{
+    background-color: red;
+}
+
+#themetoggle{
+    padding: 20px 25px;
+    background-color: #021b35;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.dark-theme #themetoggle{
+    background-color: #cfc20c;
+}
+input{
+    border: none;
+    font-size: 30px;
+    background-color: rgb(202, 202, 202);
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+}
+input.darktheme{
+    background-color: rgb(24, 24, 24);
+    color: white;
+}
