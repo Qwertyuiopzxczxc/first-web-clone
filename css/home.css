@@ -224,3 +224,80 @@ h1{
     background-color: rgb(56, 56, 56);
     border: 2px solid rgb(56, 56, 56);
 }
+.donate{
+    width: 100%;
+    background-color: rgb(48, 42, 42) ;
+    padding: 100px 0px;
+
+}
+.donate-cont{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.donate > h3{
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    margin-top: 0px;
+    letter-spacing: 2px;
+}
+.donate-card > h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: left;
+    color: #ffffff;
+    margin-top: 30px;
+    letter-spacing: 2px;
+
+}
+.donate-card > img{
+    width: 100%;
+    border-radius: 10px;
+}
+.donate-card{
+    background-color: rgb(54 54 54);
+    width: 17%;
+    border-radius: 20px;
+    padding: 2%;
+    height: 560px;
+}
+.donate-desc{
+    color: #888888;
+    margin-top: 0;
+    height: 90px;
+}
+.price {
+    color: greenyellow;
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+.buy-donate{
+    background-color: rgb(39, 38, 38);
+    color: white;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    width: 100%;
+    margin-top: 10px;
+    padding: 15px 0px;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.buy-donate:hover{
+    background-color: #575656;
+    border: 2px solid rgb(39, 38, 38);
+}
+.sale{
+    text-decoration: line-through;
+    font-size: 18px;
+    color: red;
+    font-style: oblique 20deg;
+    margin-left: 10px;
+}
