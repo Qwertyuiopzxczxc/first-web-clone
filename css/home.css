@@ -301,3 +301,9 @@ h1{
     font-style: oblique 20deg;
     margin-left: 10px;
 }
+
+.auth{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
